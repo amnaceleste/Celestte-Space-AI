@@ -25,7 +25,7 @@ Just open `index.html` in a browser — everything works, including live answers
 Or serve it (recommended, matches production):
 
 ```bash
-python3 -m http.server 4173
+python -m http.server 4173
 # then open http://localhost:4173
 ```
 
@@ -57,3 +57,6 @@ Any static server works (`npx serve`, `live-server`, etc.).
 - Works without JavaScript for core reading; JS adds the interactive experience.
 
 © 2026 Celestte Space AI. All rights reserved.
+## 🎬 Project Demo
+
+[Watch the Celestte Space AI Demo](demo/celeste-ai-demo.webm)
