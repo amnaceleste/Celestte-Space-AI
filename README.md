@@ -31,7 +31,7 @@ python -m http.server 4173
 
 Any static server works (`npx serve`, `live-server`, etc.).
 
-## Answer sources (no key required)
+## Answer sources 
 
 1. **Gemini API** — optional. Get a free key at https://aistudio.google.com/apikey
    and paste it in *Settings → AI connection* (or "Connect Gemini" on the landing page).
