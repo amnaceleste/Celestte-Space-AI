@@ -34,3 +34,8 @@ npm-debug.log*
 # ---- Build output ----
 dist/
 build/
+
+*.db
+*.sqlite
+*.sqlite3
+instance/
