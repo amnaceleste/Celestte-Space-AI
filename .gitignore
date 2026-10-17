@@ -1,0 +1,36 @@
+# ---- OS files ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Editors / IDEs ----
+.idea/
+*.swp
+*~
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# ---- Secrets & env (never commit keys!) ----
+.env
+.env.*
+*.key
+secrets.json
+
+# ---- Logs & temp ----
+*.log
+logs/
+tmp/
+.cache/
+
+# ---- Node (if you ever add tooling) ----
+node_modules/
+npm-debug.log*
+
+# ---- Build output ----
+dist/
+build/
