@@ -40,15 +40,6 @@ Any static server works (`npx serve`, `live-server`, etc.).
 3. **Wikipedia REST API** — live, keyless explanations for every space topic.
 
 
-## Make it yours
-
-- **Name / copyright:** search `Celestte Space AI` in `index.html` and `app.html` to rebrand.
-- **Colors & fonts:** edit the CSS variables at the top of `styles.css`.
-- **Assistant behavior:** edit the prompts in `ai.js` (`MODE_INSTRUCTIONS`).
-- **Accounts:** demo auth stores users in the browser (localStorage). For production,
-  replace `auth.js` with a real provider (Firebase Auth, Supabase, Auth0, Clerk).
-- **API keys:** keys live only in each visitor's browser. If you want a shared key,
-  put Gemini behind a small server proxy — never ship a private key in public code.
 
 ## Notes
 
@@ -60,3 +51,5 @@ Any static server works (`npx serve`, `live-server`, etc.).
 ## 🎬 Project Demo
 
 [Watch the Celestte Space AI Demo](demo/celeste-ai-demo.webm)
+
+All copyrights reserved
